@@ -11,4 +11,9 @@ public class HomeController {
         return  "Welcome to Spring Boot Project.....Live...Reload";
     }
 
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello World App Api";
+    }
+
 }
